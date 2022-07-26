@@ -4,7 +4,7 @@ Admin for notifications
 
 from functools import update_wrapper
 
-from django.conf.urls import url
+from django.urls import re_path as url
 from django.contrib import admin, messages
 from django.contrib.admin.options import csrf_protect_m
 from django.contrib.admin.utils import unquote
